@@ -15,7 +15,16 @@ namespace MarsFramework
             {
                 ShareSkill shareskillobj = new ShareSkill();
                 shareskillobj.EnterShareSkill();
+                
 
+
+                ManageListings mangeobj1 = new ManageListings();
+                mangeobj1.ValidateAddshareskill();
+                mangeobj1.Editshareskill();
+                mangeobj1.Validateupdateskill();
+                mangeobj1.Deleteshareskill();
+                mangeobj1.Validatedeleteskill();
+                mangeobj1.Addskillurlvalidate();
 
 
             }
